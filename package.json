@@ -1,0 +1,30 @@
+{
+  "name": "typecatch-neverthrow",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch"
+  },
+  "author": "tijnjh",
+  "license": "MIT",
+  "repository": "tijnjh/typecatch",
+  "description": "Simple TypeScript tryCatch util function for both sync and async using neverthrow",
+  "module": "./dist/index.js",
+  "devDependencies": {
+    "tsdown": "latest",
+    "typescript": "^5.8.3"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "neverthrow": "^8.2.0"
+  }
+}
